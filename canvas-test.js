@@ -8,7 +8,7 @@ function init() {
   window.requestAnimationFrame(draw);
 }
 function draw() {
-  var ctx = document.getElementById('c').getContext('2d');
+  var ctx = document.getElementById('c2').getContext('2d');
   ctx.globalCompositeOperation = 'destination-over';
   ctx.clearRect(0, 0, 300, 300); // clear canvas
   ctx.fillStyle = 'rgba(0, 0, 0, 0.4)';
